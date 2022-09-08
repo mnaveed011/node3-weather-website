@@ -10,7 +10,7 @@ console.log(path.join(__dirname,'../public'));
 
 const app = express();
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 //Define Paths for Express Config
 const publicDirectoryPath = path.join(__dirname,'../public');
